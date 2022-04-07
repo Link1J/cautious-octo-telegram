@@ -4,14 +4,14 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
 @import url(https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css);
 
+/*** Options ***/
+@import url(https://link1j.github.io/cautious-octo-telegram/base.css);
+
 /*** Cool looking ***/
 @import url(https://link1j.github.io/cautious-octo-telegram/square_user_icons.css);
 @import url(https://link1j.github.io/cautious-octo-telegram/user_icon_border.css);
 
 /*** Design ***/
-@import url(https://link1j.github.io/cautious-octo-telegram/minimal.css);
 @import url(https://link1j.github.io/cautious-octo-telegram/fonts.css);
 @import url(https://link1j.github.io/cautious-octo-telegram/titlebar.css);
-
-/*** Options ***/
-@import url(https://link1j.github.io/cautious-octo-telegram/base.css);
+@import url(https://link1j.github.io/cautious-octo-telegram/minimal.css);
