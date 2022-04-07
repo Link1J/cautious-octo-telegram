@@ -1,0 +1,32 @@
+.avatar-2e8lTP,
+.avatar-3mTjvZ,
+.avatar-1EWyVD,
+.avatar-3QF_VA,
+.avatar-b5OQ1N,
+.replyAvatar-sHd2sU,
+.replyAvatar-sHd2sU,
+.avatarUploader-qEFQS2,
+.avatarUploaderInner-p38nm2,
+.avatarWrapper-eenWra,
+.wrapper-1VLyxH {
+    border-radius: var(--icon-radius);
+}
+
+.avatarHint-k7pYop {
+    border-radius: var(--icon-radius);
+    z-index: 2;
+}
+
+.avatar-2e8lTP::before {
+    display: unset;
+}
+
+#app-mount > svg > mask[id^="svg-mask-avatar-"] > circle[fill="white"] {
+  r: 1.0 !important;
+  transform: translate(-50%, -50%) scale(2.0) !important;
+}
+
+svg.mask-1FEkla > mask > circle[fill="white"] {
+  r: 100 !important;
+  transform: translate(-50%, -50%) scale(2.0) !important;
+}

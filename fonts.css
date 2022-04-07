@@ -1,0 +1,12 @@
+:root {
+    --font-primary : var(--disp-font), var(--japn-font) !important;
+    --font-display : var(--disp-font), var(--japn-font) !important;
+    --font-code    : var(--code-font) !important;
+    --font-japanese: var(--japn-font) !important;
+}
+
+code,
+.inlineCode-2ngu6Y,
+.markup-2BOw-j code.inline {
+    font-family: var(--code-font) !important;
+}
