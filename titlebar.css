@@ -12,6 +12,10 @@ html.platform-osx #app-mount .titleBar-1it3bQ .macDragRegion-3RTnKp {
     width: 100vw;
 }
 
+html.platform-osx #app-mount .guilds-2JjMmN {
+    margin-top: 30px;
+}
+
 #app-mount .guilds-2JjMmN [class*=pill] {
     transform: rotate(270deg) translateY(50%) translateX(-48px);
 }
