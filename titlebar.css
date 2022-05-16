@@ -7,6 +7,11 @@ html.platform-win #app-mount .app-3xd6d0 .base-2jDfDU {
     margin-top: -9px;
 }
 
+html.platform-osx #app-mount .titleBar-1it3bQ,
+html.platform-osx #app-mount .titleBar-1it3bQ .macDragRegion-3RTnKp {
+    width: 100vw;
+}
+
 #app-mount .guilds-2JjMmN [class*=pill] {
     transform: rotate(270deg) translateY(50%) translateX(-48px);
 }
