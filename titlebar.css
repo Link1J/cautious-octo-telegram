@@ -41,6 +41,18 @@ html.platform-osx #app-mount .guilds-2JjMmN {
     border-radius: 0;
 }
 
+/* New Inbox Location */
+
+.iconButton-2z1iK7 {
+	width: var(--server-size);
+	height: var(--server-size);
+}
+
+div[id^='popout_'] {
+    left: 9px !important;
+    top: calc(var(--server-container) + var(--titlebar-height)) !important;
+}
+
 /* Old Wordmark */
 
 .wordmarkWindows-2dq6rw {
