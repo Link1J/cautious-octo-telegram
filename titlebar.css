@@ -48,11 +48,6 @@ html.platform-osx #app-mount .guilds-2JjMmN {
 	height: var(--server-size);
 }
 
-div[id^='popout_'] {
-    left: 9px !important;
-    top: calc(var(--server-container) + var(--titlebar-height)) !important;
-}
-
 /* Old Wordmark */
 
 .wordmarkWindows-2dq6rw {
