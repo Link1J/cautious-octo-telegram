@@ -1,9 +1,10 @@
 @keyframes spin {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
@@ -13,12 +14,14 @@
 .avatarUploader-qEFQS2,
 .avatarUploaderInner-p38nm2,
 .avatarWrapper-eenWra,
+.avatarWrapper-3y0KZ1,
 .wrapper-1VLyxH {
     border: 0 black solid;
     z-index: 1;
 }
 
 .avatarWrapper-eenWra,
+.avatarWrapper-3y0KZ1,
 .avatar-3mTjvZ.wrapper-1VLyxH,
 .avatar-3QF_VA.wrapper-1VLyxH,
 .avatarUploader-qEFQS2 {
@@ -28,19 +31,21 @@
 }
 
 .avatarWrapper-eenWra,
+.avatarWrapper-3y0KZ1,
 .avatarUploader-qEFQS2,
-.avatar-3mTjvZ > .svg-2azL_l,
-.avatar-3QF_VA > .svg-2azL_l {
+.avatar-3mTjvZ>.svg-2azL_l,
+.avatar-3QF_VA>.svg-2azL_l {
     padding: var(--icon-border-size);
 }
 
-.avatar-3QF_VA > .svg-2azL_l {
+.avatar-3QF_VA>.svg-2azL_l {
     height: calc(100% - var(--icon-border-size) * 2);
 }
 
 .avatar-3mTjvZ::before,
 .avatar-3QF_VA::before,
-.avatarWrapper-eenWra::before{
+.avatarWrapper-eenWra::before,
+.avatarWrapper-3y0KZ1::before {
     content: "";
 
     position: absolute;
@@ -58,7 +63,8 @@
 
 .avatar-3mTjvZ::after,
 .avatar-3QF_VA::after,
-.avatarWrapper-eenWra::after {
+.avatarWrapper-eenWra::after,
+.avatarWrapper-3y0KZ1::after {
     content: "";
 
     position: absolute;

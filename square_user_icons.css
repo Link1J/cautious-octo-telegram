@@ -13,7 +13,8 @@
     border-radius: var(--icon-radius);
 }
 
-.avatarHint-k7pYop {
+.avatarHint-k7pYop,
+.avatarHint-2g3Mcd {
     border-radius: var(--icon-radius);
     z-index: 2;
 }
