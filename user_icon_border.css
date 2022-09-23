@@ -36,6 +36,11 @@
 .avatar-3mTjvZ>.svg-2azL_l,
 .avatar-3QF_VA>.svg-2azL_l {
     padding: var(--icon-border-size);
+    margin: calc(-1 * var(--icon-border-size));
+}
+
+.avatarHint-2g3Mcd {
+    padding: var(--icon-border-size);
 }
 
 .avatar-3QF_VA>.svg-2azL_l {
