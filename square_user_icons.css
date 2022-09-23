@@ -23,6 +23,10 @@
     display: unset;
 }
 
+#uid_1690 > circle {
+  fill: transparent;
+}
+
 #app-mount > svg > mask[id^="svg-mask-avatar-"] > circle[fill="white"] {
   r: 1.0 !important;
   transform: translate(-50%, -50%) scale(2.0) !important;
