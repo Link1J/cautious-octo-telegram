@@ -1,14 +1,3 @@
-/*
-@import url("https://link1j.github.io/cautious-octo-telegram/all.css");
-*/
-
-/*** Options ***/
-@import url(https://link1j.github.io/cautious-octo-telegram/base.css);
-
-/*** Cool looking ***/
-@import url(https://link1j.github.io/cautious-octo-telegram/square_user_icons.css);
-
-
 @keyframes spin {
     0% {
         transform: rotate(0deg);
