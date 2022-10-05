@@ -1,3 +1,14 @@
+/*
+@import url("https://link1j.github.io/cautious-octo-telegram/all.css");
+*/
+
+/*** Options ***/
+@import url(https://link1j.github.io/cautious-octo-telegram/base.css);
+
+/*** Cool looking ***/
+@import url(https://link1j.github.io/cautious-octo-telegram/square_user_icons.css);
+
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -25,26 +36,13 @@
 .avatar-3mTjvZ.wrapper-1VLyxH,
 .avatar-3QF_VA.wrapper-1VLyxH,
 .avatarUploader-qEFQS2 {
-    display: block;
     overflow: hidden !important;
-    box-sizing: border-box;
-}
-
-.avatarWrapper-eenWra,
-.avatarWrapper-3y0KZ1,
-.avatarUploader-qEFQS2,
-.avatar-3mTjvZ>.svg-2azL_l,
-.avatar-3QF_VA>.svg-2azL_l {
     padding: var(--icon-border-size);
     margin: calc(-1 * var(--icon-border-size));
 }
 
 .avatarHint-2g3Mcd {
     padding: var(--icon-border-size);
-}
-
-.avatar-3QF_VA>.svg-2azL_l {
-    height: calc(100% - var(--icon-border-size) * 2);
 }
 
 .avatar-3mTjvZ::before,

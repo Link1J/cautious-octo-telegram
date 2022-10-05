@@ -9,6 +9,7 @@
 .avatarUploaderInner-p38nm2,
 .avatarWrapper-eenWra,
 .avatarWrapper-3y0KZ1,
+.avatarHintInner-3gk_Yx
 .wrapper-1VLyxH {
     border-radius: var(--icon-radius);
 }
@@ -23,8 +24,8 @@
     display: unset;
 }
 
-#uid_1690 > circle {
-  fill: transparent;
+mask[id^="uid_"] > circle[fill="black"] {
+  fill: white;
 }
 
 #app-mount > svg > mask[id^="svg-mask-avatar-"] > circle[fill="white"] {
